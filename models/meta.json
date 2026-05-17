@@ -1,1 +1,95 @@
-{"trained_at_utc": "2026-05-15 10:21:12", "features": ["category", "market_type", "indicator", "trend_dir", "score", "rsi", "body", "ema50", "ema200", "atr", "dist", "relative_momentum", "expiry_min", "symbol_enc", "side_enc", "raw_market_type_enc"], "encoders": {"category": {"UNKNOWN": 0, "🏆 شارة ذهبية جيدة": 1, "🏆 شارة ذهبية عادية": 2, "🏆 شارة ذهبية ممتازة": 3, "💎 شارة ماسية جيدة": 4, "💎 شارة ماسية عادية": 5, "💎 شارة ماسية ممتازة": 6}, "market_type": {"UNKNOWN": 0, "RANGING": 1, "TRENDING": 2}, "indicator": {"UNKNOWN": 0, "EMA50 Pullback + EMA50/EMA200 + RSI/ATR": 1, "RSI Extremes + RSI/ATR": 2}, "trend_dir": {"UNKNOWN": 0, "DOWN": 1, "OVERBOUGHT": 2, "OVERSOLD": 3, "UP": 4}, "symbol_enc": {"EURGBP-OTC": 0, "EURJPY-OTC": 1, "EURUSD-OTC": 2, "GBPJPY-OTC": 3, "GBPUSD-OTC": 4, "USDCHF-OTC": 5}, "side_enc": {"CALL": 0, "PUT": 1, "UNKNOWN": 0}, "raw_market_type_enc": {"UNKNOWN": 0, "RANGING": 1, "TRENDING": 2}}, "metrics": {"1": {"auc": 0.5978061592337007, "best_thr": 0.7, "n_rows": 1950, "n_splits": 3, "time_budget_fold_sec": 255}, "2": {"auc": 0.5850013870600967, "best_thr": 0.65, "n_rows": 1950, "n_splits": 3, "time_budget_fold_sec": 255}, "3": {"auc": 0.5969693751448212, "best_thr": 0.65, "n_rows": 1950, "n_splits": 3, "time_budget_fold_sec": 255}, "4": {"auc": 0.5635176226942901, "best_thr": 0.65, "n_rows": 1950, "n_splits": 3, "time_budget_fold_sec": 255}, "5": {"auc": 0.5513062200956937, "best_thr": 0.65, "n_rows": 1950, "n_splits": 3, "time_budget_fold_sec": 255}}}
+{
+  "trained_at_utc": "2026-05-17 12:03:47",
+  "features": [
+    "symbol_id",
+    "category",
+    "market_type",
+    "indicator",
+    "trend_dir",
+    "score",
+    "rsi",
+    "body",
+    "ema50",
+    "ema200",
+    "atr",
+    "dist",
+    "relative_momentum",
+    "expiry_min",
+    "side_enc",
+    "raw_market_type_enc"
+  ],
+  "encoders": {
+    "symbol_id": {
+      "EURUSD": 1,
+      "EURGBP": 2,
+      "GBPUSD": 3,
+      "EURJPY": 4,
+      "GBPJPY": 5,
+      "USDCHF": 6,
+      "UNKNOWN": 0
+    },
+    "category": {
+      "UNKNOWN": 0,
+      "🏆 شارة ذهبية جيدة": 1,
+      "🏆 شارة ذهبية عادية": 2,
+      "🏆 شارة ذهبية ممتازة": 3,
+      "💎 شارة ماسية جيدة": 4,
+      "💎 شارة ماسية عادية": 5,
+      "💎 شارة ماسية ممتازة": 6
+    },
+    "market_type": {
+      "UNKNOWN": 0,
+      "RANGING": 1,
+      "TRENDING": 2
+    },
+    "indicator": {
+      "UNKNOWN": 0,
+      "EMA50 Pullback + EMA50/EMA200 + RSI/ATR": 1,
+      "RSI Extremes + RSI/ATR": 2
+    },
+    "trend_dir": {
+      "UNKNOWN": 0,
+      "DOWN": 1,
+      "OVERBOUGHT": 2,
+      "OVERSOLD": 3,
+      "UP": 4
+    },
+    "side_enc": {
+      "CALL": 0,
+      "PUT": 1,
+      "UNKNOWN": 0
+    },
+    "raw_market_type_enc": {
+      "UNKNOWN": 0,
+      "RANGING": 1,
+      "TRENDING": 2
+    }
+  },
+  "metrics": {
+    "1": {
+      "auc": 0.5493023235314858,
+      "best_thr": 0.7,
+      "n_rows": 2500
+    },
+    "2": {
+      "auc": 0.5289651887854712,
+      "best_thr": 0.65,
+      "n_rows": 2500
+    },
+    "3": {
+      "auc": 0.568212977637182,
+      "best_thr": 0.65,
+      "n_rows": 2500
+    },
+    "4": {
+      "auc": 0.5778586902753249,
+      "best_thr": 0.65,
+      "n_rows": 2500
+    },
+    "5": {
+      "auc": 0.5717155339275763,
+      "best_thr": 0.65,
+      "n_rows": 2500
+    }
+  }
+}
